@@ -87,3 +87,26 @@ and Enter
 ```bash
 :wq
 ```
+
+
+<br>
+<br>
+
+# *Method for adding a branch, switching to the created branch, and pushing it to GitHub.*
+
+#### *1. create branch*
+
+```git
+git branch "your branch name"
+```
+
+#### 2. *Switch to created branch*
+```git
+git checkout "your created branch name earlier"
+```
+
+
+#### 2. *Push to github repo*
+```git
+git push -u origin "your created branch name earlier"
+```
