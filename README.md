@@ -100,9 +100,16 @@ and Enter
 git branch "your branch name"
 ```
 
+
 #### 2. *Switch to created branch*
 ```git
 git checkout "your created branch name earlier"
+```
+
+or
+
+```git
+git switch "your created branch name earlier"
 ```
 
 
@@ -110,3 +117,23 @@ git checkout "your created branch name earlier"
 ```git
 git push -u origin "your created branch name earlier"
 ```
+
+
+<br>
+<br>
+
+# Steps to move commits from the current branch to another branch
+
+#### *Switch into target branch*
+
+```git
+git switch main
+```
+
+#### *Inside the main branch, merge the commits from the other branch into the main branch.*
+
+```git
+git merge Version2
+```
+
+So all the updates, changes and commit to the Version2 branch is now traslated to the main branch
